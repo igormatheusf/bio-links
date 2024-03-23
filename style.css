@@ -164,7 +164,7 @@ ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 12px;
 
   transition: background 0.2s;
   border-radius: 50%;
@@ -187,7 +187,11 @@ footer {
   }
 
   .light {
-    --bg-url: /* url(./assets/bg-desktop-light.jpg)*/ linear-gradient(to bottom right, white, gray);
+    --bg-url: /* url(./assets/bg-desktop-light.jpg)*/ linear-gradient(
+      to bottom right,
+      white,
+      gray
+    );
   }
 }
 
